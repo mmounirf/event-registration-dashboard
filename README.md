@@ -7,7 +7,7 @@ The dashboard created to import attendees list, check time each attendee registe
 Technologies used:-
 - ReactJS
 - Cloud Firestore
-- Flutter 
+- Flutter [Repo](https://github.com/mmounirf/event-registration-qr-scanner)
 
 You can check the dashboard [demo](https://mmounirf.github.io/event-registration-dashboard/)
 
