@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "112e432a66ca02a7c80e0654c1f1f4c9",
+    "revision": "a16ae2508b4d506ab95784942154bb2a",
     "url": "/event-registration-dashboard/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/event-registration-dashboard/static/css/2.3bfe5fff.chunk.css"
   },
   {
-    "revision": "19ecc474b85cf5ba65a2",
+    "revision": "368ce619c4bbc9cd9b75",
     "url": "/event-registration-dashboard/static/css/main.3bed2a4b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/event-registration-dashboard/static/js/2.faed6d5b.chunk.js"
   },
   {
-    "revision": "19ecc474b85cf5ba65a2",
-    "url": "/event-registration-dashboard/static/js/main.0c461b6c.chunk.js"
+    "revision": "368ce619c4bbc9cd9b75",
+    "url": "/event-registration-dashboard/static/js/main.e75dbaf0.chunk.js"
   },
   {
     "revision": "b925469c305202c109a0",
