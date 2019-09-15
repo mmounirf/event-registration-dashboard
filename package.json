@@ -2,6 +2,7 @@
   "name": "peanuts-qr-registration-dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mmounirf.github.io/event-registration-dashboard/",
   "dependencies": {
     "axios": "^0.19.0",
     "devextreme": "19.1-stable",
@@ -9,6 +10,7 @@
     "devextreme-themebuilder": "19.1-stable",
     "firebase": "^6.6.1",
     "firebase-tools": "^7.3.2",
+    "gh-pages": "^2.1.1",
     "lodash": "^4.17.15",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -17,6 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
