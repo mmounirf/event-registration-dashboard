@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src/config/firebase.js
+.firebaserc
+firestore.rules
+.firebase/hosting.YnVpbGQ.cache
+firestore.indexes.json
+firebase.json

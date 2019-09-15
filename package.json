@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
+    "devextreme": "19.1-stable",
+    "devextreme-react": "19.1-stable",
+    "devextreme-themebuilder": "19.1-stable",
+    "firebase": "^6.6.1",
+    "firebase-tools": "^7.3.2",
+    "lodash": "^4.17.15",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "xlsx": "^0.15.1"
   },
   "scripts": {
     "start": "react-scripts start",
