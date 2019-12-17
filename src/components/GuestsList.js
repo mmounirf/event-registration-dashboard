@@ -64,9 +64,8 @@ const GuestsList = (props) => {
   const importToFirestore = (guests) => {
     const dataToImport = [...guests.map((guest) => {
         return {
-            name: `${guest['First Name']} ${guest['Last Name']}`,
-            employer: guest['Employer'],
-            type:guest['Attendee Type']
+            name: Object.values(guest)[0],
+            type: Object.values(guest)[1] || ''
         }
     })];
     let batchTransaction = db.batch();
@@ -94,8 +93,7 @@ const GuestsList = (props) => {
         <Export enabled={true} fileName={'Employees'} allowExportSelectedData={true} />
         <Column dataField='qrCode' caption='QR Code' cellRender={QRCode} />
         <Column dataField='name' caption='Name' />
-        <Column dataField='employer' caption='Employer' />
-        <Column dataField='type' caption='Attendee Type' />
+        <Column dataField='type' caption='Type' />
         <Column dataField='date' caption='Date' dataType='datetime' calculateCellValue={formatTime} />
       </DataGrid>
     </div>
