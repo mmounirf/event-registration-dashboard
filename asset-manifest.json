@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/event-registration-dashboard/static/css/main.3bed2a4b.chunk.css",
-    "main.js": "/event-registration-dashboard/static/js/main.e75dbaf0.chunk.js",
-    "main.js.map": "/event-registration-dashboard/static/js/main.e75dbaf0.chunk.js.map",
+    "main.css": "/event-registration-dashboard/static/css/main.71e6272d.chunk.css",
+    "main.js": "/event-registration-dashboard/static/js/main.871eb7bc.chunk.js",
+    "main.js.map": "/event-registration-dashboard/static/js/main.871eb7bc.chunk.js.map",
     "runtime~main.js": "/event-registration-dashboard/static/js/runtime~main.38cadacd.js",
     "runtime~main.js.map": "/event-registration-dashboard/static/js/runtime~main.38cadacd.js.map",
-    "static/css/2.3bfe5fff.chunk.css": "/event-registration-dashboard/static/css/2.3bfe5fff.chunk.css",
-    "static/js/2.faed6d5b.chunk.js": "/event-registration-dashboard/static/js/2.faed6d5b.chunk.js",
-    "static/js/2.faed6d5b.chunk.js.map": "/event-registration-dashboard/static/js/2.faed6d5b.chunk.js.map",
+    "static/css/2.0d771ef9.chunk.css": "/event-registration-dashboard/static/css/2.0d771ef9.chunk.css",
+    "static/js/2.a03c89a9.chunk.js": "/event-registration-dashboard/static/js/2.a03c89a9.chunk.js",
+    "static/js/2.a03c89a9.chunk.js.map": "/event-registration-dashboard/static/js/2.a03c89a9.chunk.js.map",
     "index.html": "/event-registration-dashboard/index.html",
-    "precache-manifest.08518984a1db06fcd1e63cc54d74f16e.js": "/event-registration-dashboard/precache-manifest.08518984a1db06fcd1e63cc54d74f16e.js",
+    "precache-manifest.dc7abba6c3f219a98e9c6b64f6180dfa.js": "/event-registration-dashboard/precache-manifest.dc7abba6c3f219a98e9c6b64f6180dfa.js",
     "service-worker.js": "/event-registration-dashboard/service-worker.js",
-    "static/css/2.3bfe5fff.chunk.css.map": "/event-registration-dashboard/static/css/2.3bfe5fff.chunk.css.map",
-    "static/css/main.3bed2a4b.chunk.css.map": "/event-registration-dashboard/static/css/main.3bed2a4b.chunk.css.map",
+    "static/css/2.0d771ef9.chunk.css.map": "/event-registration-dashboard/static/css/2.0d771ef9.chunk.css.map",
+    "static/css/main.71e6272d.chunk.css.map": "/event-registration-dashboard/static/css/main.71e6272d.chunk.css.map",
     "static/media/dx.material.orange.dark.css": "/event-registration-dashboard/static/media/dxiconsmaterial.ef3cacd9.woff"
   }
 }
