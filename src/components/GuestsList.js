@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import DataGrid, { Column, FilterRow, HeaderFilter, Export, Paging, Pager } from 'devextreme-react/data-grid';
+import DataGrid, { Column, FilterRow, HeaderFilter, Export, Paging, Pager, Selection } from 'devextreme-react/data-grid';
 import 'devextreme/dist/css/dx.common.css';
 import 'devextreme/dist/css/dx.material.orange.dark.css';
 import { db } from '../config/firebase';
@@ -80,6 +80,7 @@ const GuestsList = (props) => {
     <div className='guestsContainer'>
     <input id="fileInput" ref={fileInput} onChange={onFileSelect} type="file" />
       <DataGrid
+        allowColumnResizing={true}
         dataSource={guests}
         showBorders={true}
         onToolbarPreparing={onToolbarPreparing}>
@@ -91,6 +92,7 @@ const GuestsList = (props) => {
           allowedPageSizes={[5, 10, 20]}
           showInfo={true} />
         <Export enabled={true} fileName={'Employees'} allowExportSelectedData={true} />
+        <Selection allowSelectAll={true} mode="multiple" showCheckBoxesMode="always" />
         <Column dataField='qrCode' caption='QR Code' cellRender={QRCode} />
         <Column dataField='name' caption='Name' />
         <Column dataField='type' caption='Type' />
