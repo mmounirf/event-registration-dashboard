@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://mmounirf.github.io/event-registration-dashboard/",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "devextreme": "19.1-stable",
     "devextreme-react": "19.1-stable",
     "devextreme-themebuilder": "19.1-stable",
